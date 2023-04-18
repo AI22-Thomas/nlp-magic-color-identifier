@@ -41,7 +41,7 @@ def onehot_to_int(onehot):
 stopwordset = set(stopwords.words("english"))
 
 # read json data from file utf-8 encoded
-with open('cards.json', 'r', encoding='utf-8') as f:
+with open('data/cards.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 mycards = []

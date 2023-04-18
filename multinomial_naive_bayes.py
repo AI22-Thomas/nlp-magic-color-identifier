@@ -2,6 +2,12 @@ import json
 import re
 
 import numpy as np
+
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from string import punctuation
@@ -37,7 +43,7 @@ def onehot_to_int(onehot):
 stopwordset = set(stopwords.words("english"))
 
 # read json data from file utf-8 encoded
-with open('cards.json', 'r', encoding='utf-8') as f:
+with open('data/cards.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 mycards = []
