@@ -1,5 +1,9 @@
 # Magic Color Identifier
 
+# Setup
+
+
+
 ## Data
 To get the original data used for this project, unzip the zip file in the `data` folder.
 
