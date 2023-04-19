@@ -5,6 +5,11 @@
 All requirements are listed in `requirements.txt`. Used python version is 3.10.5.
 The nklt library sometimes requires extra data, which is downloaded automatically when needed.
 
+The spacey libary requires a download of the english language model, which can be done with the following command:
+```bash
+python -m spacy download en_core_web_sm
+```
+
 ## Data
 The original data is under `data/orcale-cards-oracle-cards-20230417090329.json`.
 Original source is Scryfall Bulk Data: https://scryfall.com/docs/api/bulk-data, which contains all Magic: The Gathering cards

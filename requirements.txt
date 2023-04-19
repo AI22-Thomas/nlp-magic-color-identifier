@@ -10,5 +10,4 @@ scikit_learn==1.1.2
 nltk==3.8.1
 Requests==2.28.2
 keras-nlp==0.4.1
-tensorflow==2.10.0
-keras==2.10.0
+tensorflow==2.10.1
