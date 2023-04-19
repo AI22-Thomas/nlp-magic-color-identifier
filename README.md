@@ -47,7 +47,6 @@ The file is still included in this repository for documentation.
 #### keras-multicolor
 Creates a keras model consisting of a embedding layer, LSTM layer, and a dense output layer.  
 The embedding layer uses pre-trained word embeddings from [GloVe](https://nlp.stanford.edu/projects/glove/).  
-The word embedding file is stored as a split zip file in the `data` folder and needs to be unzipped before starting the experiment.  
 The output of the trained model is a vector of size 5 where each value of the vector gives the likelyhood for the 5 possible card colors (white, blue, black, red, green).
 
 #### keras-multicolor-tf-idf
