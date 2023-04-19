@@ -24,7 +24,7 @@ The folder contains our best result split into multiple zip files. These files h
 The output of the trained model is a vector of size 5 where each value of the vector gives the likelyhood for the 5 possible card colors (white, blue, black, red, green).
 
 ### Multinomial Naive Bayes (NB) and Logistic Regression (LR)
-Uses libraries nltk and sklearn.
-Uses vectorizers Bag of Words (BOW) and Term Frequency - Inverse Document Frequency (TF-IDF).
-Comparison between NB with BOW, NB with TF-IDF, LR with BOW, LR with TF-IDF.
+Uses libraries nltk and sklearn. \
+Uses vectorizers Bag of Words (BOW) and Term Frequency - Inverse Document Frequency (TF-IDF). \
+Comparison between NB with BOW, NB with TF-IDF, LR with BOW, LR with TF-IDF. \
 Running nb-lr_bow_tfidf.py creates four confusion matrix plots.
